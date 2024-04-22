@@ -1,0 +1,42 @@
+
+.sidebar .heading{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-weight: 600;
+    font-size: 30px;
+    
+}
+.sidebar{
+    
+    font-family: "Kode Mono", monospace;
+    background-color: red;
+    height:100vh;
+}
+
+.sidebar .sidebar--body{
+
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.sidebar .sidebar--body .options{
+    font-size: 20px;
+    margin-bottom: 10px;
+    max-height: 45px;
+    width: 150px;
+    border-radius: 5px;
+    display: flex;
+    justify-content:left;
+    align-items: center;
+    gap: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+.sidebar .sidebar--body .options:hover{
+    background-color: black;
+    color: white;
+}
+
+
+

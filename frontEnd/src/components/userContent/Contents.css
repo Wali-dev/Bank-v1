@@ -1,0 +1,190 @@
+.container {
+
+    background-color: white;
+    font-family: "Kode Mono", monospace;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.container .heading {
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: white;
+}
+
+.container .container-body {
+    background-color: white;
+    margin: auto;
+
+}
+
+.container .container-body .card-container-bottom,
+.card-container-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70vw;
+}
+.container .container-body .card-container-bottom,
+.card-container-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70vw;
+}
+
+.container .container-body .card-container-bottom .cardSection {
+    
+    margin: 10px;
+    height: 60vh;
+    width: 200px;
+    border-radius: 10px;
+
+}
+
+.container .container-body .card-container-top {
+    height: 25vh;
+
+}
+
+.container .container-body .card-container-top .cardSection{
+    background-color: red;
+    margin: 10px;
+    height: 80px;
+    width: 200px;
+    border-radius: 10px;
+
+}
+
+.container .container-body .card-container-bottom .bottom-two{
+    background-color: red;
+    flex-grow: .8;
+}
+.container .container-body .card-container-bottom .bottom-three{
+    background-color: red;
+    flex-grow: .5;
+}
+.container .container-body .card-container-bottom .bottom-one{
+   display: flex;
+   flex-direction: column;
+   gap: 25px;
+}
+
+
+.container .container-body .card-container-bottom .up{
+    background-color:red;
+    height: 100px;
+    border-radius: 10px;
+}
+.up{
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+.mainBal{
+    color: aliceblue;
+    font-size: 30px;
+ }
+.container .container-body .card-container-bottom .down{
+    background-color: red;
+    height: 100px;
+    flex-grow: 1;
+    border-radius: 10px;
+}
+
+.container .container-body .addUser-btn{
+
+
+    font-weight: 700;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    
+    
+    
+ }
+.container .container-body .addUser-btn .link{
+
+    color: aliceblue ;
+    text-decoration: none;
+    
+    
+    
+ }
+ .container .container-body .addUser-btn .link :hover{
+    color: aliceblue;
+ }
+
+
+ .down-deep{
+    background-color: aliceblue;
+    padding: 10px;
+    margin: auto;
+    border-radius: 2px;
+}
+
+.water{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.account-details{
+    text-align: center;
+    
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: aliceblue;
+    margin-top: 20px;
+    margin: 20px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    padding: 5px;
+}
+.sendform{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2px;
+    padding: 5px;
+    
+
+}
+.large-text{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.sendMoney{
+    display: flex;
+    gap: 90px;
+    align-items: center;
+}
+.loading{
+    
+    
+}
+.loader {
+    width: 45px;
+    aspect-ratio: 1;
+    background: 
+      linear-gradient(#0000 calc(1*100%/6),#000 0 calc(3*100%/6),#0000 0) left   bottom,
+      linear-gradient(#0000 calc(2*100%/6),#000 0 calc(4*100%/6),#0000 0) center bottom,
+      linear-gradient(#0000 calc(3*100%/6),#000 0 calc(5*100%/6),#0000 0) right  bottom;
+    background-size: 20% 600%;
+    background-repeat: no-repeat;
+    animation: l3 1s infinite linear;
+  }
+  @keyframes l3 {
+      100% {background-position: left top,center top,right top }
+  }

@@ -1,0 +1,13 @@
+.user-container{
+    font-size: 13px;
+    text-align: center;
+    border: 1px solid;
+    padding: 3px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.user-container:hover{
+    background-color: aliceblue;
+    cursor: pointer;
+}

@@ -1,0 +1,125 @@
+.atm-container{
+    margin: auto;
+    
+    width: 650px;
+    height: 550px;
+    font-family: "Kode Mono", monospace;
+}   
+
+.atm-header{
+    height: 80px;
+    background-color: rgba(255, 0, 0, 0.735);
+    font-size: 25px;
+    color: aliceblue;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 10px;
+    padding-right: 20px;
+}
+
+.atm-main{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.atm-main .display{
+    background-color: rgba(208, 208, 208, 0.24);
+    flex-grow: 1 ;
+    height: 60vh; 
+    
+}
+
+.atm-main .display p{
+    margin-top: 50px;
+}
+.atm-main .display input{
+    height: 50px;
+    width: 120px;
+    border: 1px solid black;
+    margin-bottom: 20px;
+    font-family: "Silkscreen", sans-serif;
+    font-size: 20px;
+    
+}
+
+.atm-main .num-pad{
+    background-color: rgba(0, 0, 0, 0.532);
+    flex-grow: 1 ;
+    
+}
+
+.atm-footer{
+    background-color: rgb(54, 54, 50);
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    
+
+}
+
+.atm-footer .button{
+    background-color: rgba(54, 45, 174, 0.644);
+    border: 0;
+    width: 150px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    color: aliceblue;
+    font-family: "Kode Mono", monospace;
+    cursor: pointer;
+    text-decoration: none;
+   
+    
+}
+
+
+.num-pad .key-container{
+    margin-top:20px;
+    display: grid;
+    padding: 40px;
+    gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+}
+.num-pad .key-container div{
+    height: 60px;
+    width: 60px;
+    background-color: rgba(70, 68, 68, 0.653);
+    color: aliceblue;
+    margin: auto;
+    display: block;
+    text-align:center;
+    border-radius: 2px;
+    cursor:pointer;
+    
+}
+
+/* HTML: <div class="loader"></div> */
+.loader-p {
+    margin: auto;
+    margin-top: 40px;
+    width: 60px;
+    aspect-ratio: 1;
+    border: 15px solid #ddd;
+    border-radius: 50%;
+    position: relative;
+    transform: rotate(45deg);
+  }
+  .loader-p::before {
+    content: "";
+    position: absolute;
+    inset: -15px;
+    border-radius: 50%;
+    border: 15px solid #514b82;
+    animation: l18 2s infinite linear;
+  }
+  @keyframes l18 {
+      0%   {clip-path:polygon(50% 50%,0 0,0    0,0    0   ,0    0   ,0    0   )}
+      25%  {clip-path:polygon(50% 50%,0 0,100% 0,100% 0   ,100% 0   ,100% 0   )}
+      50%  {clip-path:polygon(50% 50%,0 0,100% 0,100% 100%,100% 100%,100% 100%)}
+      75%  {clip-path:polygon(50% 50%,0 0,100% 0,100% 100%,0    100%,0    100%)}
+      100% {clip-path:polygon(50% 50%,0 0,100% 0,100% 100%,0    100%,0    0   )}
+  }
+
